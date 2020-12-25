@@ -1,0 +1,32 @@
+
+h1 {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    margin-bottom: 0px;   
+}
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+.card {
+    width: 24rem;
+    margin: 0 auto;
+    box-shadow: 4px 5px 8px rgba(202, 202, 252, 0.534);
+}
+.card p{
+    color: rgb(68, 67, 67);
+}
+/*Card top colors*/
+#sup-card {
+    border-top: 5px solid rgb(52, 168, 168);
+}
+#team-card {
+    border-top: 5px solid rgb(168, 0, 0);
+}
+#karma-card {
+    border-top: 5px solid rgb(221, 171, 6);
+}
+#calc-card {
+    border-top: 5px solid rgb(1, 50, 212);
+}
