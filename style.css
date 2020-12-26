@@ -47,4 +47,9 @@ h2 {
         margin-top: 30%;
         margin-right: 5%;
     }
+
+    section {
+        display: flex;
+        justify-content: center;
+    }
 }
