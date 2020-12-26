@@ -10,12 +10,15 @@ h2 {
     margin-bottom: 3%;
 }
 .card {
-    width: 24rem;
+    width: 90%;
+    max-width: 40rem;
+    min-width: 22rem;
     margin: 0 auto;
     box-shadow: 4px 5px 8px rgba(202, 202, 252, 0.534);
 }
 .card p{
     color: rgb(68, 67, 67);
+    width: 90%;
 }
 /*Card top colors*/
 #sup-card {
@@ -29,4 +32,19 @@ h2 {
 }
 #calc-card {
     border-top: 5px solid rgb(1, 50, 212);
+}
+
+
+@media screen and (min-width: 1200px) {
+    .card {
+        margin: 5px;
+    }
+    #sup-card {
+        margin-top: 30%;
+        margin-left: 5%;
+    }
+    #calc-card {
+        margin-top: 30%;
+        margin-right: 5%;
+    }
 }
